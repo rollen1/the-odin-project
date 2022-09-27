@@ -1,5 +1,5 @@
 # Hello, these are my projects from The Odin Project
 
-## HTML
+## Foundations
 
-[Foundations: Recipe ](/src/html/odin-recipes/) | [Odin Project link](https://www.theodinproject.com/lessons/foundations-recipes)
+01. [Foundations: Recipe ](/src/html/odin-recipes/) | [Odin Project link](https://www.theodinproject.com/lessons/foundations-recipes)
