@@ -1,0 +1,36 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+ul {
+    text-align: center;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cepelinai {
+    color: #FFB81C;
+}
+
+.saltibarsciai {
+    color: #046A38;
+}
+
+.tinginys {
+    color: #BE3A34;
+}
