@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  /*  */
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  /*  */
+  padding: 8px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.header, .footer {
+    color: #868686;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header {
+    margin-bottom: auto;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #eeeeee;
+}
+
+.left-links, .right-links{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+@media only screen and (min-width: 375px) {
+
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
