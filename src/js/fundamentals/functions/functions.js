@@ -18,7 +18,7 @@ let multiply = (number, secondNumber) => number * secondNumber;
 //     return word.toUpperCase();
 // }
 
-let capitalize = word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+let capitalize = word => word[0].toUpperCase() + word.slice(1).toLowerCase();
 
 // console.log(capitalize('father'));
 // console.log(capitalize('FATHER'));
